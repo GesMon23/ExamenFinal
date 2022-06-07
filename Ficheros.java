@@ -27,9 +27,8 @@ public class Ficheros {
         try{
             String NomDoc=nombre;
             String ruta="D:\\Documentos\\U\\Tercer Semestre\\Programación I\\Examen Final\\"+NomDoc+".txt";
-            String Ruta=ruta;
             String separador = "*********************************************************\n";
-            File doc = new File(Ruta);
+            File doc = new File(ruta);
             if(!doc.exists()){
                 doc.createNewFile();
             }
